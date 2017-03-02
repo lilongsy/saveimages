@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "保存图片样式脚本文件(Save images CSS JS)",
+  "description": "Save and download images CSS and JS file.",
+  "version": "1.0",
+   "background": {
+        "scripts": ["background.js"]
+   },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+      "128": "icon128.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "64": "icon64.png"
+   },
+  "permissions": ["http://*.iqilu.com/", "downloads", "contextMenus", "webRequestBlocking", "tabs", "\u003Call_urls>"]
+}
